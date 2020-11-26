@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "SpringFrontTP4"
+    }
+  },
+  "defaultProject": "SpringFrontTP4",
+  "cli": {
+    "analytics": false
+  }
 }
