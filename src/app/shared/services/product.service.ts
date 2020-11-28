@@ -19,7 +19,7 @@ export class ProductService {
     return this.http.get<Product[]>(this.productsUrl)   .pipe(
       filter(_ => !!_),
       defaultIfEmpty([])
-    );;
+    );
   }
 
   public save(user: Product): Observable<any> {
